@@ -16,3 +16,18 @@ Mongoose crud with validation and env  - File structure is very important to und
 (Things to note in all required places add Mongoose,route properly and crud on Mongoose slight different
 from mongodb previous verify express-mongo in repo.)
 
+ *In post man for local host
+* For get all user - http://localhost:8000
+* Add new user     - http://localhost:8000
+* Get user by id   - http://localhost:8000:id   
+* Edit user by id  - http://localhost:8000:id
+* Delete user by id- http://localhost:8000:id
+* For id based operations set pathvariables in postman ,this for localhost within our system
+
+* In render Build command - npm i --force and add variable db name and db url
+* global host https: https://mongoose-validate.onrender.com
+* For get all user - https://mongoose-validate.onrender.com
+* Add new user     - https://mongoose-validate.onrender.com
+* Get user by id   - https://mongoose-validate.onrender.com/:id
+* Edit user by id  - https://mongoose-validate.onrender.com/:id
+* Delete user by id- https://mongoose-validate.onrender.com/:id
